@@ -21,16 +21,20 @@ function App() {
     </div>
   );
 }
+let clienteUno = {
 
-const Navbar = () =>{
-  return (
-    <ul>
-      <li>
-      <button>
-        hola
-      </button>
-      </li>
-    </ul>
-  )
+  name:"Mateo",
+  apellido:"Santucci",
+  universitario : false ,
+  cursos : ["Entrenamiento Deportivo","Entrenamiento Funcional","Entrenamiento Personalizado"]
+}
+
+
+const {universitario,cursos:[,,c],name,apellido} = clienteUno
+
+
+let styles = {
+ color:'rgb(258, 122, 287)',
+ backgroundColor:'white'
 }
 export default App;
