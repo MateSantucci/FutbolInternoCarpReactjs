@@ -22,4 +22,15 @@ function App() {
   );
 }
 
+const Navbar = () =>{
+  return (
+    <ul>
+      <li>
+      <button>
+        hola
+      </button>
+      </li>
+    </ul>
+  )
+}
 export default App;
